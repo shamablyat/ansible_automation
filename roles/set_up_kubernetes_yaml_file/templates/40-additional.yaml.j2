@@ -29,6 +29,6 @@ spec:
   type: {{ project.type }}
   ports:
     - port: {{ project.ports }}
-      nodePort: 30012
+      nodePort: {{ project.nodePort }}
   selector:
     app: {{ project.labels_selector_in_service }}
