@@ -2,3 +2,4 @@ ansible_host: 173.161.34.217
 ansible_port: 5000 
 ansible_user: ismoil 
 ansible_ssh_pass: Martian123!
+ansible_become_password: Martian123!
