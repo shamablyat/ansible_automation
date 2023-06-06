@@ -1,0 +1,9 @@
+server {
+        listen {{ nginx.listen }};
+        listen [::]:{{ nginx.listen }} ;
+        server_name {{ nginx.server_name }};
+
+        location / {
+                proxy_pass http://192.168.49.2:{{ nginx.kubernetes_port }}/;
+        }
+}

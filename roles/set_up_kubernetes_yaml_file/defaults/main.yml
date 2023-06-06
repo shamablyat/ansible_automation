@@ -1,0 +1,14 @@
+---
+project:
+    name: hh 
+    selector_match_labels: hh 
+    replicas: 1
+    container_name: hh 
+    image_from_docker: tajbaevsh/hh_server:latest
+    ports: 8010
+    service_name: hh 
+    type: NodePort
+    nodePort: 30012
+    labels_selector_in_service: hh
+    deployment_name: hh_server_v1
+

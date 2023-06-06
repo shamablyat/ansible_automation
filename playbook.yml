@@ -1,0 +1,16 @@
+---
+- name: ansible playbook
+  hosts: ismoil_server
+  become: true
+  become_method: sudo
+  become_user: root
+  gather_facts: true
+  vars: 
+    ansible_become_password: Martian123!
+
+  roles:
+    # - role: set_up_kubernetes_yaml_file      # run this create kubernetes yaml file in server
+    # - role: create_nginx_file                # run this create nginx config file in server
+    # - role: create_symbolic_link             # run this to create symbolic link
+    - role: restart_yaml_file                # run this to restart kubernetes yaml file in server
+    - role: restart_nginx                    # run this to restart nginx

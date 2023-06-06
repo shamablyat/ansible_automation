@@ -1,0 +1,3 @@
+---
+- name: Restart Nginx service
+  command: sudo systemctl restart nginx

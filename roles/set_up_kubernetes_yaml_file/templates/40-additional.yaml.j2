@@ -1,0 +1,34 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ project.name }}
+spec:
+  selector:
+    matchLabels:
+      app: {{ project.selector_match_labels }}
+  replicas: {{project.replicas}}
+  template:
+    metadata:
+      labels:
+        app: {{ project.selector_match_labels }}
+    spec:
+      containers:
+        - name: {{ project.container_name }}
+          image: {{ project.image_from_docker }}
+          ports:
+            - containerPort: {{ project.ports }}
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ project.service_name }}
+  labels:
+    app: {{ project.labels_selector_in_service }}
+spec:
+  type: {{ project.type }}
+  ports:
+    - port: {{ project.ports }}
+      nodePort: 30012
+  selector:
+    app: {{ project.labels_selector_in_service }}
