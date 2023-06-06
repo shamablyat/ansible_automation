@@ -4,7 +4,7 @@ project:
     selector_match_labels: hh 
     replicas: 1
     container_name: hh 
-    image_from_docker: tajbaevsh/hh_server:latest
+    image_from_docker: tajbaevsh/hh_server
     ports: 8010
     service_name: hh 
     type: NodePort

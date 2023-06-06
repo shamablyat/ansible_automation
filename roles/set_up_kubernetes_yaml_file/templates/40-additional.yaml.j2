@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: {{ project.container_name }}
-          image: {{ project.image_from_docker }}
+          image: {{ project.image_from_docker }}:latest
           ports:
             - containerPort: {{ project.ports }}
 
