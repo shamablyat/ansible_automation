@@ -1,3 +1,0 @@
----
-nginx_symbolic_link:
-  file_name: test.conf

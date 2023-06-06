@@ -1,5 +1,5 @@
 ---
 - name: create a symbolic-link for nginx file
-  command: ln -s ../sites-available/{{ nginx_symbolic_link. file_name }}
+  command: ln -s ../sites-available/{{ {{ nginx.file_name }} }}
   args:
     chdir: /etc/nginx/sites-enabled

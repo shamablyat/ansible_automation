@@ -3,3 +3,4 @@ nginx:
   listen: 80
   server_name: tajbaevsh.uz
   kubernetes_port: 30016
+  file_name: test.conf

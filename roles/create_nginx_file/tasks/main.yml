@@ -2,4 +2,4 @@
 - name: create nginx file
   template:
     src: 40-additiona.yaml.j2
-    dest: /etc/nginx/sites-available/test.conf
+    dest: /etc/nginx/sites-available/{{ nginx.file_name }}.conf

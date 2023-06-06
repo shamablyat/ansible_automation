@@ -2,4 +2,4 @@
 - name: create kubectl file
   template:
     src: 40-additional.yaml.j2
-    dest: /home/ismoil/Projects/deployment.yaml
+    dest: /home/ismoil/Projects/{{project.deployment_name}}.yaml

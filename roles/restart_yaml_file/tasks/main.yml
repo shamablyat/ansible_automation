@@ -1,6 +1,6 @@
 ---
-- name:  delete deployment.yaml
-  command: kubectl apply -f /home/ismoil/Projects/deployment.yaml
-
 - name:  apply deployment.yaml
-  command: kubectl delete -f /home/ismoil/Projects/deployment.yaml
+  command: kubectl delete -f /home/ismoil/Projects/{{project.deployment_name}}.yaml
+
+- name:  delete deployment.yaml
+  command: kubectl apply -f /home/ismoil/Projects/{{project.deployment_name}}.yaml

@@ -10,5 +10,5 @@ project:
     type: NodePort
     nodePort: 30012
     labels_selector_in_service: hh
-    deployment_name: hh_server_v1
+    deployment_name: postgres
 
