@@ -1,0 +1,10 @@
+---
+- name: Create a new database 
+  community.postgresql.postgresql_db:
+    name: {{ db.name }}
+    login_host:  {{ db.host }}
+    port:  {{ db.port }}
+    login_user:  {{ db.user }}
+    login_password:  {{ db.password }}
+
+

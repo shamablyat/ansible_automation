@@ -10,3 +10,582 @@
 2023-06-06 18:40:54,021 p=7098 u=shama n=ansible | changed: [ismoil_server]
 2023-06-06 18:40:54,082 p=7098 u=shama n=ansible | PLAY RECAP *******************************************************************************************************************************************************************************
 2023-06-06 18:40:54,082 p=7098 u=shama n=ansible | ismoil_server              : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-06-07 16:05:35,458 p=131318 u=shama n=ansible | - Role roles/create_database was created successfully
+2023-06-07 16:06:51,708 p=133034 u=shama n=ansible | Starting galaxy collection install process
+2023-06-07 16:06:51,709 p=133034 u=shama n=ansible | Process install dependency map
+2023-06-07 16:06:51,709 p=133034 u=shama n=ansible | |
+2023-06-07 16:06:51,809 p=133034 u=shama n=ansible | /
+2023-06-07 16:06:51,910 p=133034 u=shama n=ansible | -
+2023-06-07 16:06:52,010 p=133034 u=shama n=ansible | \
+2023-06-07 16:06:52,111 p=133034 u=shama n=ansible | |
+2023-06-07 16:06:52,211 p=133034 u=shama n=ansible | /
+2023-06-07 16:06:52,312 p=133034 u=shama n=ansible | -
+2023-06-07 16:06:52,412 p=133034 u=shama n=ansible | \
+2023-06-07 16:06:52,513 p=133034 u=shama n=ansible | |
+2023-06-07 16:06:52,614 p=133034 u=shama n=ansible | /
+2023-06-07 16:06:52,714 p=133034 u=shama n=ansible | -
+2023-06-07 16:06:52,815 p=133034 u=shama n=ansible | \
+2023-06-07 16:06:52,915 p=133034 u=shama n=ansible | |
+2023-06-07 16:06:53,016 p=133034 u=shama n=ansible | /
+2023-06-07 16:06:53,116 p=133034 u=shama n=ansible | -
+2023-06-07 16:06:53,216 p=133034 u=shama n=ansible | \
+2023-06-07 16:06:53,317 p=133034 u=shama n=ansible | |
+2023-06-07 16:06:53,417 p=133034 u=shama n=ansible | /
+2023-06-07 16:06:53,517 p=133034 u=shama n=ansible | -
+2023-06-07 16:06:53,617 p=133034 u=shama n=ansible | \
+2023-06-07 16:06:53,718 p=133034 u=shama n=ansible | |
+2023-06-07 16:06:53,818 p=133034 u=shama n=ansible | /
+2023-06-07 16:06:53,918 p=133034 u=shama n=ansible | -
+2023-06-07 16:06:54,019 p=133034 u=shama n=ansible | \
+2023-06-07 16:06:54,119 p=133034 u=shama n=ansible | |
+2023-06-07 16:06:54,220 p=133034 u=shama n=ansible | /
+2023-06-07 16:06:54,320 p=133034 u=shama n=ansible | -
+2023-06-07 16:06:54,421 p=133034 u=shama n=ansible | \
+2023-06-07 16:06:54,522 p=133034 u=shama n=ansible | |
+2023-06-07 16:06:54,622 p=133034 u=shama n=ansible | /
+2023-06-07 16:06:54,723 p=133034 u=shama n=ansible | -
+2023-06-07 16:06:54,823 p=133034 u=shama n=ansible | \
+2023-06-07 16:06:54,924 p=133034 u=shama n=ansible | |
+2023-06-07 16:06:55,024 p=133034 u=shama n=ansible | /
+2023-06-07 16:06:55,124 p=133034 u=shama n=ansible | -
+2023-06-07 16:06:55,225 p=133034 u=shama n=ansible | \
+2023-06-07 16:06:55,325 p=133034 u=shama n=ansible | |
+2023-06-07 16:06:55,426 p=133034 u=shama n=ansible | /
+2023-06-07 16:06:55,526 p=133034 u=shama n=ansible | -
+2023-06-07 16:06:55,627 p=133034 u=shama n=ansible | \
+2023-06-07 16:06:55,727 p=133034 u=shama n=ansible | |
+2023-06-07 16:06:55,828 p=133034 u=shama n=ansible | /
+2023-06-07 16:06:55,928 p=133034 u=shama n=ansible | -
+2023-06-07 16:06:56,028 p=133034 u=shama n=ansible | \
+2023-06-07 16:06:56,129 p=133034 u=shama n=ansible | |
+2023-06-07 16:06:56,229 p=133034 u=shama n=ansible | /
+2023-06-07 16:06:56,329 p=133034 u=shama n=ansible | -
+2023-06-07 16:06:56,429 p=133034 u=shama n=ansible | \
+2023-06-07 16:06:56,530 p=133034 u=shama n=ansible | |
+2023-06-07 16:06:56,630 p=133034 u=shama n=ansible | /
+2023-06-07 16:06:56,731 p=133034 u=shama n=ansible | Starting collection install process
+2023-06-07 16:06:56,731 p=133034 u=shama n=ansible | |
+2023-06-07 16:06:56,738 p=133034 u=shama n=ansible | Downloading https://galaxy.ansible.com/download/community-postgresql-2.4.1.tar.gz to /home/shama/.ansible/tmp/ansible-local-133034gkm36x2d/tmpfqyj1_ch/community-postgresql-2.4.1-21dxwcjq
+2023-06-07 16:06:56,832 p=133034 u=shama n=ansible | /
+2023-06-07 16:06:56,932 p=133034 u=shama n=ansible | -
+2023-06-07 16:06:57,033 p=133034 u=shama n=ansible | \
+2023-06-07 16:06:57,133 p=133034 u=shama n=ansible | |
+2023-06-07 16:06:57,234 p=133034 u=shama n=ansible | /
+2023-06-07 16:06:57,334 p=133034 u=shama n=ansible | -
+2023-06-07 16:06:57,434 p=133034 u=shama n=ansible | \
+2023-06-07 16:06:57,534 p=133034 u=shama n=ansible | |
+2023-06-07 16:06:57,635 p=133034 u=shama n=ansible | /
+2023-06-07 16:06:57,735 p=133034 u=shama n=ansible | -
+2023-06-07 16:06:57,836 p=133034 u=shama n=ansible | \
+2023-06-07 16:06:57,936 p=133034 u=shama n=ansible | |
+2023-06-07 16:06:58,036 p=133034 u=shama n=ansible | /
+2023-06-07 16:06:58,137 p=133034 u=shama n=ansible | -
+2023-06-07 16:06:58,237 p=133034 u=shama n=ansible | \
+2023-06-07 16:06:58,338 p=133034 u=shama n=ansible | |
+2023-06-07 16:06:58,438 p=133034 u=shama n=ansible | /
+2023-06-07 16:06:58,539 p=133034 u=shama n=ansible | -
+2023-06-07 16:06:58,640 p=133034 u=shama n=ansible | \
+2023-06-07 16:06:58,740 p=133034 u=shama n=ansible | |
+2023-06-07 16:06:58,841 p=133034 u=shama n=ansible | /
+2023-06-07 16:06:58,941 p=133034 u=shama n=ansible | -
+2023-06-07 16:06:59,041 p=133034 u=shama n=ansible | \
+2023-06-07 16:06:59,142 p=133034 u=shama n=ansible | |
+2023-06-07 16:06:59,242 p=133034 u=shama n=ansible | /
+2023-06-07 16:06:59,342 p=133034 u=shama n=ansible | -
+2023-06-07 16:06:59,443 p=133034 u=shama n=ansible | \
+2023-06-07 16:06:59,543 p=133034 u=shama n=ansible | |
+2023-06-07 16:06:59,644 p=133034 u=shama n=ansible | Installing 'community.postgresql:2.4.1' to '/home/shama/.ansible/collections/ansible_collections/community/postgresql'
+2023-06-07 16:06:59,644 p=133034 u=shama n=ansible | /
+2023-06-07 16:06:59,744 p=133034 u=shama n=ansible | community.postgresql:2.4.1 was installed successfully
+2023-06-07 16:19:23,369 p=148222 u=shama n=ansible | PLAY [ansible playbook] ****************************************************************************************************************************************************************************
+2023-06-07 16:19:23,417 p=148222 u=shama n=ansible | TASK [Gathering Facts] *****************************************************************************************************************************************************************************
+2023-06-07 16:19:45,646 p=148222 u=shama n=ansible | ok: [ismoil_server]
+2023-06-07 16:19:45,671 p=148222 u=shama n=ansible | TASK [create_database : Create a new database with name "acme" which has a limit of 100 concurrent connections] ************************************************************************************
+2023-06-07 16:19:54,786 p=148222 u=shama n=ansible | fatal: [ismoil_server]: FAILED! => {"changed": false, "msg": "Failed to import the required Python library (psycopg2) on ismoil-Standard-PC-i440FX-PIIX-1996's Python /usr/bin/python3. Please read the module documentation and install it in the appropriate location. If the required library is installed, but Ansible is using the wrong Python interpreter, please consult the documentation on ansible_python_interpreter"}
+2023-06-07 16:19:54,789 p=148222 u=shama n=ansible | PLAY RECAP *****************************************************************************************************************************************************************************************
+2023-06-07 16:19:54,790 p=148222 u=shama n=ansible | ismoil_server              : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-06-07 16:28:41,901 p=160087 u=shama n=ansible | PLAY [ansible playbook] ****************************************************************************************************************************************************************************
+2023-06-07 16:28:41,928 p=160087 u=shama n=ansible | TASK [Gathering Facts] *****************************************************************************************************************************************************************************
+2023-06-07 16:28:56,263 p=160087 u=shama n=ansible | fatal: [ismoil_server]: FAILED! => {"ansible_facts": {}, "changed": false, "failed_modules": {"ansible.legacy.setup": {"failed": true, "module_stderr": "Shared connection to 173.161.34.217 closed.\r\n", "module_stdout": "\r\n/bin/sh: 1: /usr/lib/python3.9: Permission denied\r\n", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 126}}, "msg": "The following modules failed to execute: ansible.legacy.setup\n"}
+2023-06-07 16:28:56,266 p=160087 u=shama n=ansible | PLAY RECAP *****************************************************************************************************************************************************************************************
+2023-06-07 16:28:56,267 p=160087 u=shama n=ansible | ismoil_server              : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-06-07 16:29:35,101 p=161270 u=shama n=ansible | PLAY [ansible playbook] ****************************************************************************************************************************************************************************
+2023-06-07 16:29:35,128 p=161270 u=shama n=ansible | TASK [Gathering Facts] *****************************************************************************************************************************************************************************
+2023-06-07 16:29:45,569 p=161270 u=shama n=ansible | fatal: [ismoil_server]: FAILED! => {"ansible_facts": {}, "changed": false, "failed_modules": {"ansible.legacy.setup": {"failed": true, "module_stderr": "Shared connection to 173.161.34.217 closed.\r\n", "module_stdout": "\r\n/bin/sh: 1: /usr/lib/python3.9: Permission denied\r\n", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 126}}, "msg": "The following modules failed to execute: ansible.legacy.setup\n"}
+2023-06-07 16:29:45,572 p=161270 u=shama n=ansible | PLAY RECAP *****************************************************************************************************************************************************************************************
+2023-06-07 16:29:45,573 p=161270 u=shama n=ansible | ismoil_server              : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-06-07 16:30:56,680 p=163131 u=shama n=ansible | PLAY [ansible playbook] ****************************************************************************************************************************************************************************
+2023-06-07 16:30:56,707 p=163131 u=shama n=ansible | TASK [Gathering Facts] *****************************************************************************************************************************************************************************
+2023-06-07 16:31:14,069 p=163131 u=shama n=ansible | fatal: [ismoil_server]: FAILED! => {"ansible_facts": {}, "changed": false, "failed_modules": {"ansible.legacy.setup": {"failed": true, "module_stderr": "Shared connection to 173.161.34.217 closed.\r\n", "module_stdout": "\r\n/bin/sh: 1: /usr/lib/python3.8: Permission denied\r\n", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 126}}, "msg": "The following modules failed to execute: ansible.legacy.setup\n"}
+2023-06-07 16:31:14,072 p=163131 u=shama n=ansible | PLAY RECAP *****************************************************************************************************************************************************************************************
+2023-06-07 16:31:14,072 p=163131 u=shama n=ansible | ismoil_server              : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-06-07 16:34:53,172 p=168049 u=shama n=ansible | PLAY [ansible playbook] ****************************************************************************************************************************************************************************
+2023-06-07 16:34:53,198 p=168049 u=shama n=ansible | TASK [Gathering Facts] *****************************************************************************************************************************************************************************
+2023-06-07 16:35:11,438 p=168049 u=shama n=ansible | fatal: [ismoil_server]: FAILED! => {"ansible_facts": {}, "changed": false, "failed_modules": {"ansible.legacy.setup": {"failed": true, "module_stderr": "Shared connection to 173.161.34.217 closed.\r\n", "module_stdout": "\r\n/bin/sh: 1: /usr/lib/python3.9: Permission denied\r\n", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 126}}, "msg": "The following modules failed to execute: ansible.legacy.setup\n"}
+2023-06-07 16:35:11,441 p=168049 u=shama n=ansible | PLAY RECAP *****************************************************************************************************************************************************************************************
+2023-06-07 16:35:11,441 p=168049 u=shama n=ansible | ismoil_server              : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-06-07 16:36:06,124 p=169556 u=shama n=ansible | Starting galaxy collection install process
+2023-06-07 16:36:06,127 p=169556 u=shama n=ansible | Process install dependency map
+2023-06-07 16:36:06,127 p=169556 u=shama n=ansible | |
+2023-06-07 16:36:06,228 p=169556 u=shama n=ansible | /
+2023-06-07 16:36:06,328 p=169556 u=shama n=ansible | -
+2023-06-07 16:36:06,429 p=169556 u=shama n=ansible | \
+2023-06-07 16:36:06,529 p=169556 u=shama n=ansible | |
+2023-06-07 16:36:06,630 p=169556 u=shama n=ansible | /
+2023-06-07 16:36:06,730 p=169556 u=shama n=ansible | -
+2023-06-07 16:36:06,831 p=169556 u=shama n=ansible | \
+2023-06-07 16:36:06,931 p=169556 u=shama n=ansible | |
+2023-06-07 16:36:07,032 p=169556 u=shama n=ansible | /
+2023-06-07 16:36:07,132 p=169556 u=shama n=ansible | -
+2023-06-07 16:36:07,233 p=169556 u=shama n=ansible | \
+2023-06-07 16:36:07,333 p=169556 u=shama n=ansible | |
+2023-06-07 16:36:07,434 p=169556 u=shama n=ansible | /
+2023-06-07 16:36:07,534 p=169556 u=shama n=ansible | -
+2023-06-07 16:36:07,635 p=169556 u=shama n=ansible | \
+2023-06-07 16:36:07,735 p=169556 u=shama n=ansible | |
+2023-06-07 16:36:07,836 p=169556 u=shama n=ansible | /
+2023-06-07 16:36:07,936 p=169556 u=shama n=ansible | -
+2023-06-07 16:36:08,037 p=169556 u=shama n=ansible | \
+2023-06-07 16:36:08,137 p=169556 u=shama n=ansible | |
+2023-06-07 16:36:08,238 p=169556 u=shama n=ansible | /
+2023-06-07 16:36:08,338 p=169556 u=shama n=ansible | -
+2023-06-07 16:36:08,439 p=169556 u=shama n=ansible | \
+2023-06-07 16:36:08,539 p=169556 u=shama n=ansible | |
+2023-06-07 16:36:08,640 p=169556 u=shama n=ansible | /
+2023-06-07 16:36:08,740 p=169556 u=shama n=ansible | -
+2023-06-07 16:36:08,841 p=169556 u=shama n=ansible | \
+2023-06-07 16:36:08,942 p=169556 u=shama n=ansible | |
+2023-06-07 16:36:09,042 p=169556 u=shama n=ansible | /
+2023-06-07 16:36:09,143 p=169556 u=shama n=ansible | -
+2023-06-07 16:36:09,243 p=169556 u=shama n=ansible | \
+2023-06-07 16:36:09,344 p=169556 u=shama n=ansible | |
+2023-06-07 16:36:09,444 p=169556 u=shama n=ansible | /
+2023-06-07 16:36:09,545 p=169556 u=shama n=ansible | -
+2023-06-07 16:36:09,645 p=169556 u=shama n=ansible | \
+2023-06-07 16:36:09,746 p=169556 u=shama n=ansible | |
+2023-06-07 16:36:09,846 p=169556 u=shama n=ansible | /
+2023-06-07 16:36:09,947 p=169556 u=shama n=ansible | -
+2023-06-07 16:36:10,047 p=169556 u=shama n=ansible | \
+2023-06-07 16:36:10,148 p=169556 u=shama n=ansible | |
+2023-06-07 16:36:10,248 p=169556 u=shama n=ansible | /
+2023-06-07 16:36:10,349 p=169556 u=shama n=ansible | -
+2023-06-07 16:36:10,449 p=169556 u=shama n=ansible | \
+2023-06-07 16:36:10,550 p=169556 u=shama n=ansible | |
+2023-06-07 16:36:10,650 p=169556 u=shama n=ansible | /
+2023-06-07 16:36:10,751 p=169556 u=shama n=ansible | -
+2023-06-07 16:36:10,851 p=169556 u=shama n=ansible | \
+2023-06-07 16:36:10,952 p=169556 u=shama n=ansible | |
+2023-06-07 16:36:11,052 p=169556 u=shama n=ansible | /
+2023-06-07 16:36:11,153 p=169556 u=shama n=ansible | -
+2023-06-07 16:36:11,253 p=169556 u=shama n=ansible | \
+2023-06-07 16:36:11,354 p=169556 u=shama n=ansible | |
+2023-06-07 16:36:11,454 p=169556 u=shama n=ansible | /
+2023-06-07 16:36:11,555 p=169556 u=shama n=ansible | -
+2023-06-07 16:36:11,655 p=169556 u=shama n=ansible | \
+2023-06-07 16:36:11,756 p=169556 u=shama n=ansible | |
+2023-06-07 16:36:11,856 p=169556 u=shama n=ansible | /
+2023-06-07 16:36:11,957 p=169556 u=shama n=ansible | -
+2023-06-07 16:36:12,058 p=169556 u=shama n=ansible | \
+2023-06-07 16:36:12,158 p=169556 u=shama n=ansible | |
+2023-06-07 16:36:12,259 p=169556 u=shama n=ansible | /
+2023-06-07 16:36:12,359 p=169556 u=shama n=ansible | -
+2023-06-07 16:36:12,460 p=169556 u=shama n=ansible | \
+2023-06-07 16:36:12,560 p=169556 u=shama n=ansible | |
+2023-06-07 16:36:12,661 p=169556 u=shama n=ansible | /
+2023-06-07 16:36:12,761 p=169556 u=shama n=ansible | -
+2023-06-07 16:36:12,862 p=169556 u=shama n=ansible | \
+2023-06-07 16:36:12,962 p=169556 u=shama n=ansible | |
+2023-06-07 16:36:13,063 p=169556 u=shama n=ansible | /
+2023-06-07 16:36:13,163 p=169556 u=shama n=ansible | -
+2023-06-07 16:36:13,264 p=169556 u=shama n=ansible | \
+2023-06-07 16:36:13,364 p=169556 u=shama n=ansible | |
+2023-06-07 16:36:13,465 p=169556 u=shama n=ansible | /
+2023-06-07 16:36:13,565 p=169556 u=shama n=ansible | -
+2023-06-07 16:36:13,666 p=169556 u=shama n=ansible | \
+2023-06-07 16:36:13,767 p=169556 u=shama n=ansible | Starting collection install process
+2023-06-07 16:36:13,768 p=169556 u=shama n=ansible | |
+2023-06-07 16:36:13,770 p=169556 u=shama n=ansible | Downloading https://galaxy.ansible.com/download/community-general-7.0.1.tar.gz to /home/shama/.ansible/tmp/ansible-local-169556jctxyuia/tmp63h0l74z/community-general-7.0.1-bmvy82po
+2023-06-07 16:36:13,868 p=169556 u=shama n=ansible | /
+2023-06-07 16:36:13,968 p=169556 u=shama n=ansible | -
+2023-06-07 16:36:14,069 p=169556 u=shama n=ansible | \
+2023-06-07 16:36:14,169 p=169556 u=shama n=ansible | |
+2023-06-07 16:36:14,270 p=169556 u=shama n=ansible | /
+2023-06-07 16:36:14,370 p=169556 u=shama n=ansible | -
+2023-06-07 16:36:14,471 p=169556 u=shama n=ansible | \
+2023-06-07 16:36:14,571 p=169556 u=shama n=ansible | |
+2023-06-07 16:36:14,672 p=169556 u=shama n=ansible | /
+2023-06-07 16:36:14,772 p=169556 u=shama n=ansible | -
+2023-06-07 16:36:14,873 p=169556 u=shama n=ansible | \
+2023-06-07 16:36:14,973 p=169556 u=shama n=ansible | |
+2023-06-07 16:36:15,074 p=169556 u=shama n=ansible | /
+2023-06-07 16:36:15,174 p=169556 u=shama n=ansible | -
+2023-06-07 16:36:15,275 p=169556 u=shama n=ansible | \
+2023-06-07 16:36:15,375 p=169556 u=shama n=ansible | |
+2023-06-07 16:36:15,476 p=169556 u=shama n=ansible | /
+2023-06-07 16:36:15,576 p=169556 u=shama n=ansible | -
+2023-06-07 16:36:15,677 p=169556 u=shama n=ansible | \
+2023-06-07 16:36:15,777 p=169556 u=shama n=ansible | |
+2023-06-07 16:36:15,878 p=169556 u=shama n=ansible | /
+2023-06-07 16:36:15,978 p=169556 u=shama n=ansible | -
+2023-06-07 16:36:16,079 p=169556 u=shama n=ansible | \
+2023-06-07 16:36:16,179 p=169556 u=shama n=ansible | |
+2023-06-07 16:36:16,280 p=169556 u=shama n=ansible | /
+2023-06-07 16:36:16,380 p=169556 u=shama n=ansible | -
+2023-06-07 16:36:16,481 p=169556 u=shama n=ansible | \
+2023-06-07 16:36:16,581 p=169556 u=shama n=ansible | |
+2023-06-07 16:36:16,682 p=169556 u=shama n=ansible | /
+2023-06-07 16:36:16,782 p=169556 u=shama n=ansible | -
+2023-06-07 16:36:16,883 p=169556 u=shama n=ansible | \
+2023-06-07 16:36:16,983 p=169556 u=shama n=ansible | |
+2023-06-07 16:36:17,084 p=169556 u=shama n=ansible | /
+2023-06-07 16:36:17,184 p=169556 u=shama n=ansible | -
+2023-06-07 16:36:17,285 p=169556 u=shama n=ansible | \
+2023-06-07 16:36:17,385 p=169556 u=shama n=ansible | |
+2023-06-07 16:36:17,486 p=169556 u=shama n=ansible | /
+2023-06-07 16:36:17,586 p=169556 u=shama n=ansible | -
+2023-06-07 16:36:17,687 p=169556 u=shama n=ansible | \
+2023-06-07 16:36:17,787 p=169556 u=shama n=ansible | Installing 'community.general:7.0.1' to '/home/shama/.ansible/collections/ansible_collections/community/general'
+2023-06-07 16:36:17,787 p=169556 u=shama n=ansible | |
+2023-06-07 16:36:17,888 p=169556 u=shama n=ansible | /
+2023-06-07 16:36:17,994 p=169556 u=shama n=ansible | -
+2023-06-07 16:36:18,095 p=169556 u=shama n=ansible | \
+2023-06-07 16:36:18,196 p=169556 u=shama n=ansible | |
+2023-06-07 16:36:18,296 p=169556 u=shama n=ansible | /
+2023-06-07 16:36:18,397 p=169556 u=shama n=ansible | -
+2023-06-07 16:36:18,497 p=169556 u=shama n=ansible | \
+2023-06-07 16:36:18,598 p=169556 u=shama n=ansible | |
+2023-06-07 16:36:18,698 p=169556 u=shama n=ansible | /
+2023-06-07 16:36:18,798 p=169556 u=shama n=ansible | -
+2023-06-07 16:36:18,898 p=169556 u=shama n=ansible | \
+2023-06-07 16:36:18,999 p=169556 u=shama n=ansible | |
+2023-06-07 16:36:19,099 p=169556 u=shama n=ansible | /
+2023-06-07 16:36:19,199 p=169556 u=shama n=ansible | -
+2023-06-07 16:36:19,300 p=169556 u=shama n=ansible | \
+2023-06-07 16:36:19,400 p=169556 u=shama n=ansible | |
+2023-06-07 16:36:19,500 p=169556 u=shama n=ansible | /
+2023-06-07 16:36:19,601 p=169556 u=shama n=ansible | community.general:7.0.1 was installed successfully
+2023-06-07 16:36:26,235 p=170063 u=shama n=ansible | PLAY [ansible playbook] ****************************************************************************************************************************************************************************
+2023-06-07 16:36:26,263 p=170063 u=shama n=ansible | TASK [Gathering Facts] *****************************************************************************************************************************************************************************
+2023-06-07 16:36:44,851 p=170063 u=shama n=ansible | fatal: [ismoil_server]: FAILED! => {"ansible_facts": {}, "changed": false, "failed_modules": {"ansible.legacy.setup": {"failed": true, "module_stderr": "Shared connection to 173.161.34.217 closed.\r\n", "module_stdout": "\r\n/bin/sh: 1: /usr/lib/python3.9: Permission denied\r\n", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 126}}, "msg": "The following modules failed to execute: ansible.legacy.setup\n"}
+2023-06-07 16:36:44,852 p=170063 u=shama n=ansible | PLAY RECAP *****************************************************************************************************************************************************************************************
+2023-06-07 16:36:44,852 p=170063 u=shama n=ansible | ismoil_server              : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-06-07 16:37:31,979 p=171548 u=shama n=ansible | PLAY [ansible playbook] ****************************************************************************************************************************************************************************
+2023-06-07 16:37:31,987 p=171548 u=shama n=ansible | TASK [Gathering Facts] *****************************************************************************************************************************************************************************
+2023-06-07 16:37:43,413 p=171548 u=shama n=ansible | fatal: [ismoil_server]: FAILED! => {"ansible_facts": {}, "changed": false, "failed_modules": {"ansible.legacy.setup": {"failed": true, "module_stderr": "Shared connection to 173.161.34.217 closed.\r\n", "module_stdout": "\r\n/bin/sh: 1: /usr/lib/python3.9: Permission denied\r\n", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 126}}, "msg": "The following modules failed to execute: ansible.legacy.setup\n"}
+2023-06-07 16:37:43,414 p=171548 u=shama n=ansible | PLAY RECAP *****************************************************************************************************************************************************************************************
+2023-06-07 16:37:43,414 p=171548 u=shama n=ansible | ismoil_server              : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-06-07 16:40:16,142 p=174983 u=shama n=ansible | PLAY [ansible playbook] ****************************************************************************************************************************************************************************
+2023-06-07 16:40:16,150 p=174983 u=shama n=ansible | TASK [Gathering Facts] *****************************************************************************************************************************************************************************
+2023-06-07 16:40:31,340 p=174983 u=shama n=ansible | fatal: [ismoil_server]: FAILED! => {"ansible_facts": {}, "changed": false, "failed_modules": {"ansible.legacy.setup": {"failed": true, "module_stderr": "Shared connection to 173.161.34.217 closed.\r\n", "module_stdout": "\r\n/bin/sh: 1: /usr/lib/python3.9: Permission denied\r\n", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 126}}, "msg": "The following modules failed to execute: ansible.legacy.setup\n"}
+2023-06-07 16:40:31,343 p=174983 u=shama n=ansible | PLAY RECAP *****************************************************************************************************************************************************************************************
+2023-06-07 16:40:31,344 p=174983 u=shama n=ansible | ismoil_server              : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-06-07 16:42:29,958 p=177784 u=shama n=ansible | PLAY [ansible playbook] ****************************************************************************************************************************************************************************
+2023-06-07 16:42:29,966 p=177784 u=shama n=ansible | TASK [Gathering Facts] *****************************************************************************************************************************************************************************
+2023-06-07 16:42:44,755 p=177784 u=shama n=ansible | ok: [ismoil_server]
+2023-06-07 16:42:44,794 p=177784 u=shama n=ansible | TASK [restart_nginx : Restart Nginx service] *******************************************************************************************************************************************************
+2023-06-07 16:42:51,960 p=177784 u=shama n=ansible | changed: [ismoil_server]
+2023-06-07 16:42:52,027 p=177784 u=shama n=ansible | PLAY RECAP *****************************************************************************************************************************************************************************************
+2023-06-07 16:42:52,027 p=177784 u=shama n=ansible | ismoil_server              : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-06-07 16:43:11,030 p=178650 u=shama n=ansible | PLAY [ansible playbook] ****************************************************************************************************************************************************************************
+2023-06-07 16:43:11,058 p=178650 u=shama n=ansible | TASK [Gathering Facts] *****************************************************************************************************************************************************************************
+2023-06-07 16:43:25,543 p=178650 u=shama n=ansible | ok: [ismoil_server]
+2023-06-07 16:43:25,568 p=178650 u=shama n=ansible | TASK [create_database : Create a new database with name "acme" which has a limit of 100 concurrent connections] ************************************************************************************
+2023-06-07 16:43:33,676 p=178650 u=shama n=ansible | fatal: [ismoil_server]: FAILED! => {"changed": false, "msg": "Failed to import the required Python library (psycopg2) on ismoil-Standard-PC-i440FX-PIIX-1996's Python /usr/bin/python3. Please read the module documentation and install it in the appropriate location. If the required library is installed, but Ansible is using the wrong Python interpreter, please consult the documentation on ansible_python_interpreter"}
+2023-06-07 16:43:33,680 p=178650 u=shama n=ansible | PLAY RECAP *****************************************************************************************************************************************************************************************
+2023-06-07 16:43:33,681 p=178650 u=shama n=ansible | ismoil_server              : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-06-07 16:45:35,621 p=181794 u=shama n=ansible | PLAY [ansible playbook] ****************************************************************************************************************************************************************************
+2023-06-07 16:45:35,649 p=181794 u=shama n=ansible | TASK [Gathering Facts] *****************************************************************************************************************************************************************************
+2023-06-07 16:45:50,852 p=181794 u=shama n=ansible | fatal: [ismoil_server]: FAILED! => {"ansible_facts": {}, "changed": false, "failed_modules": {"ansible.legacy.setup": {"failed": true, "module_stderr": "Shared connection to 173.161.34.217 closed.\r\n", "module_stdout": "\r\n/bin/sh: 1: /usr/lib/python: not found\r\n", "msg": "The module failed to execute correctly, you probably need to set the interpreter.\nSee stdout/stderr for the exact error", "rc": 127}}, "msg": "The following modules failed to execute: ansible.legacy.setup\n"}
+2023-06-07 16:45:50,856 p=181794 u=shama n=ansible | PLAY RECAP *****************************************************************************************************************************************************************************************
+2023-06-07 16:45:50,856 p=181794 u=shama n=ansible | ismoil_server              : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-06-07 17:12:01,347 p=6449 u=shama n=ansible | PLAY [ansible playbook] ****************************************************************************************************************************************************************************
+2023-06-07 17:12:01,397 p=6449 u=shama n=ansible | TASK [Gathering Facts] *****************************************************************************************************************************************************************************
+2023-06-07 17:12:12,349 p=6449 u=shama n=ansible | fatal: [ismoil_server]: FAILED! => {"ansible_facts": {}, "changed": false, "failed_modules": {"ansible.legacy.setup": {"failed": true, "module_stderr": "Shared connection to 173.161.34.217 closed.\r\n", "module_stdout": "\r\n/bin/sh: 1: /usr/lib/python3.9: Permission denied\r\n", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 126}}, "msg": "The following modules failed to execute: ansible.legacy.setup\n"}
+2023-06-07 17:12:12,350 p=6449 u=shama n=ansible | PLAY RECAP *****************************************************************************************************************************************************************************************
+2023-06-07 17:12:12,350 p=6449 u=shama n=ansible | ismoil_server              : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-06-07 17:12:28,814 p=6632 u=shama n=ansible | PLAY [ansible playbook] ****************************************************************************************************************************************************************************
+2023-06-07 17:12:28,841 p=6632 u=shama n=ansible | TASK [Gathering Facts] *****************************************************************************************************************************************************************************
+2023-06-07 17:12:47,127 p=6632 u=shama n=ansible | ok: [ismoil_server]
+2023-06-07 17:12:47,151 p=6632 u=shama n=ansible | TASK [create_database : Create a new database with name "acme" which has a limit of 100 concurrent connections] ************************************************************************************
+2023-06-07 17:12:57,375 p=6632 u=shama n=ansible | fatal: [ismoil_server]: FAILED! => {"changed": false, "msg": "Failed to import the required Python library (psycopg2) on ismoil-Standard-PC-i440FX-PIIX-1996's Python /usr/bin/python3. Please read the module documentation and install it in the appropriate location. If the required library is installed, but Ansible is using the wrong Python interpreter, please consult the documentation on ansible_python_interpreter"}
+2023-06-07 17:12:57,376 p=6632 u=shama n=ansible | PLAY RECAP *****************************************************************************************************************************************************************************************
+2023-06-07 17:12:57,383 p=6632 u=shama n=ansible | ismoil_server              : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-06-07 17:14:30,048 p=6947 u=shama n=ansible | PLAY [ansible playbook] ****************************************************************************************************************************************************************************
+2023-06-07 17:14:30,076 p=6947 u=shama n=ansible | TASK [Gathering Facts] *****************************************************************************************************************************************************************************
+2023-06-07 17:14:31,478 p=6947 u=shama n=ansible | fatal: [ismoil_server]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host 173.161.34.217 port 5000: No route to host", "unreachable": true}
+2023-06-07 17:14:31,481 p=6947 u=shama n=ansible | PLAY RECAP *****************************************************************************************************************************************************************************************
+2023-06-07 17:14:31,482 p=6947 u=shama n=ansible | ismoil_server              : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2023-06-07 17:14:50,421 p=7330 u=shama n=ansible | PLAY [ansible playbook] ****************************************************************************************************************************************************************************
+2023-06-07 17:14:50,449 p=7330 u=shama n=ansible | TASK [Gathering Facts] *****************************************************************************************************************************************************************************
+2023-06-07 17:15:07,325 p=7330 u=shama n=ansible | fatal: [ismoil_server]: FAILED! => {"ansible_facts": {}, "changed": false, "failed_modules": {"ansible.legacy.setup": {"failed": true, "module_stderr": "Shared connection to 173.161.34.217 closed.\r\n", "module_stdout": "\r\n/bin/sh: 1: /usr/lib/python3.9: Permission denied\r\n", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 126}}, "msg": "The following modules failed to execute: ansible.legacy.setup\n"}
+2023-06-07 17:15:07,327 p=7330 u=shama n=ansible | PLAY RECAP *****************************************************************************************************************************************************************************************
+2023-06-07 17:15:07,327 p=7330 u=shama n=ansible | ismoil_server              : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-06-07 17:18:53,712 p=7618 u=shama n=ansible | PLAY [ansible playbook] ****************************************************************************************************************************************************************************
+2023-06-07 17:18:53,740 p=7618 u=shama n=ansible | TASK [Gathering Facts] *****************************************************************************************************************************************************************************
+2023-06-07 17:19:06,059 p=7618 u=shama n=ansible | ok: [ismoil_server]
+2023-06-07 17:19:06,077 p=7618 u=shama n=ansible | TASK [create_database : Create a new database with name "acme" which has a limit of 100 concurrent connections] ************************************************************************************
+2023-06-07 17:19:13,038 p=7618 u=shama n=ansible | fatal: [ismoil_server]: FAILED! => {"changed": false, "msg": "Failed to import the required Python library (psycopg2) on ismoil-Standard-PC-i440FX-PIIX-1996's Python /usr/bin/python3. Please read the module documentation and install it in the appropriate location. If the required library is installed, but Ansible is using the wrong Python interpreter, please consult the documentation on ansible_python_interpreter"}
+2023-06-07 17:19:13,039 p=7618 u=shama n=ansible | PLAY RECAP *****************************************************************************************************************************************************************************************
+2023-06-07 17:19:13,039 p=7618 u=shama n=ansible | ismoil_server              : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-06-07 17:20:37,712 p=7799 u=shama n=ansible | PLAY [ansible playbook] ****************************************************************************************************************************************************************************
+2023-06-07 17:20:37,738 p=7799 u=shama n=ansible | TASK [Gathering Facts] *****************************************************************************************************************************************************************************
+2023-06-07 17:20:56,404 p=7799 u=shama n=ansible | ok: [ismoil_server]
+2023-06-07 17:20:56,431 p=7799 u=shama n=ansible | TASK [create_database : Create a new database with name "acme" which has a limit of 100 concurrent connections] ************************************************************************************
+2023-06-07 17:21:05,804 p=7799 u=shama n=ansible | fatal: [ismoil_server]: FAILED! => {"changed": false, "msg": "Failed to import the required Python library (psycopg2) on ismoil-Standard-PC-i440FX-PIIX-1996's Python /usr/bin/python3.8. Please read the module documentation and install it in the appropriate location. If the required library is installed, but Ansible is using the wrong Python interpreter, please consult the documentation on ansible_python_interpreter"}
+2023-06-07 17:21:05,805 p=7799 u=shama n=ansible | PLAY RECAP *****************************************************************************************************************************************************************************************
+2023-06-07 17:21:05,805 p=7799 u=shama n=ansible | ismoil_server              : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-06-07 17:22:36,796 p=7983 u=shama n=ansible | PLAY [ansible playbook] ****************************************************************************************************************************************************************************
+2023-06-07 17:22:36,822 p=7983 u=shama n=ansible | TASK [Gathering Facts] *****************************************************************************************************************************************************************************
+2023-06-07 17:22:48,967 p=7983 u=shama n=ansible | ok: [ismoil_server]
+2023-06-07 17:22:48,985 p=7983 u=shama n=ansible | TASK [create_database : Create a new database with name "acme" which has a limit of 100 concurrent connections] ************************************************************************************
+2023-06-07 17:22:56,761 p=7983 u=shama n=ansible | fatal: [ismoil_server]: FAILED! => {"changed": false, "msg": "Failed to import the required Python library (psycopg2) on ismoil-Standard-PC-i440FX-PIIX-1996's Python /usr/bin/python3. Please read the module documentation and install it in the appropriate location. If the required library is installed, but Ansible is using the wrong Python interpreter, please consult the documentation on ansible_python_interpreter"}
+2023-06-07 17:22:56,761 p=7983 u=shama n=ansible | PLAY RECAP *****************************************************************************************************************************************************************************************
+2023-06-07 17:22:56,762 p=7983 u=shama n=ansible | ismoil_server              : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-06-07 17:23:13,082 p=8179 u=shama n=ansible | PLAY [ansible playbook] ****************************************************************************************************************************************************************************
+2023-06-07 17:23:13,090 p=8179 u=shama n=ansible | TASK [Gathering Facts] *****************************************************************************************************************************************************************************
+2023-06-07 17:23:25,137 p=8179 u=shama n=ansible | ok: [ismoil_server]
+2023-06-07 17:23:25,163 p=8179 u=shama n=ansible | TASK [restart_nginx : Restart Nginx service] *******************************************************************************************************************************************************
+2023-06-07 17:23:33,609 p=8179 u=shama n=ansible | changed: [ismoil_server]
+2023-06-07 17:23:33,639 p=8179 u=shama n=ansible | PLAY RECAP *****************************************************************************************************************************************************************************************
+2023-06-07 17:23:33,639 p=8179 u=shama n=ansible | ismoil_server              : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-06-07 17:25:24,185 p=8365 u=shama n=ansible | PLAY [ansible playbook] ****************************************************************************************************************************************************************************
+2023-06-07 17:25:24,212 p=8365 u=shama n=ansible | TASK [Gathering Facts] *****************************************************************************************************************************************************************************
+2023-06-07 17:25:38,944 p=8365 u=shama n=ansible | ok: [ismoil_server]
+2023-06-07 17:25:38,963 p=8365 u=shama n=ansible | TASK [create_database : Create a new database with name "acme" which has a limit of 100 concurrent connections] ************************************************************************************
+2023-06-07 17:25:47,103 p=8365 u=shama n=ansible | fatal: [ismoil_server]: FAILED! => {"changed": false, "msg": "Failed to import the required Python library (psycopg2) on ismoil-Standard-PC-i440FX-PIIX-1996's Python /usr/bin/python3. Please read the module documentation and install it in the appropriate location. If the required library is installed, but Ansible is using the wrong Python interpreter, please consult the documentation on ansible_python_interpreter"}
+2023-06-07 17:25:47,104 p=8365 u=shama n=ansible | PLAY RECAP *****************************************************************************************************************************************************************************************
+2023-06-07 17:25:47,104 p=8365 u=shama n=ansible | ismoil_server              : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-06-07 17:32:03,896 p=8875 u=shama n=ansible | PLAY [ansible playbook] ****************************************************************************************************************************************************************************
+2023-06-07 17:32:03,923 p=8875 u=shama n=ansible | TASK [Gathering Facts] *****************************************************************************************************************************************************************************
+2023-06-07 17:32:03,945 p=8875 u=shama n=ansible | fatal: [ismoil_server]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host 127.0.0.1 port 22: Connection refused", "unreachable": true}
+2023-06-07 17:32:03,946 p=8875 u=shama n=ansible | PLAY RECAP *****************************************************************************************************************************************************************************************
+2023-06-07 17:32:03,947 p=8875 u=shama n=ansible | ismoil_server              : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2023-06-07 17:32:28,290 p=8985 u=shama n=ansible | PLAY [ansible playbook] ****************************************************************************************************************************************************************************
+2023-06-07 17:32:28,316 p=8985 u=shama n=ansible | TASK [Gathering Facts] *****************************************************************************************************************************************************************************
+2023-06-07 17:32:28,340 p=8985 u=shama n=ansible | fatal: [ismoil_server]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host localhost port 22: Connection refused", "unreachable": true}
+2023-06-07 17:32:28,341 p=8985 u=shama n=ansible | PLAY RECAP *****************************************************************************************************************************************************************************************
+2023-06-07 17:32:28,341 p=8985 u=shama n=ansible | ismoil_server              : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2023-06-07 17:33:39,646 p=9070 u=shama n=ansible | PLAY [ansible playbook] ****************************************************************************************************************************************************************************
+2023-06-07 17:33:39,676 p=9070 u=shama n=ansible | TASK [Gathering Facts] *****************************************************************************************************************************************************************************
+2023-06-07 17:33:39,947 p=9070 u=shama n=ansible | fatal: [ismoil_server]: FAILED! => {"ansible_facts": {}, "changed": false, "failed_modules": {"ansible.legacy.setup": {"failed": true, "module_stderr": "sudo: a password is required\n", "module_stdout": "", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 1}}, "msg": "The following modules failed to execute: ansible.legacy.setup\n"}
+2023-06-07 17:33:39,951 p=9070 u=shama n=ansible | PLAY RECAP *****************************************************************************************************************************************************************************************
+2023-06-07 17:33:39,951 p=9070 u=shama n=ansible | ismoil_server              : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-06-07 17:34:06,162 p=9150 u=shama n=ansible | PLAY [ansible playbook] ****************************************************************************************************************************************************************************
+2023-06-07 17:34:06,191 p=9150 u=shama n=ansible | TASK [Gathering Facts] *****************************************************************************************************************************************************************************
+2023-06-07 17:34:07,333 p=9150 u=shama n=ansible | ok: [ismoil_server]
+2023-06-07 17:34:07,357 p=9150 u=shama n=ansible | TASK [create_database : Create a new database with name "acme" which has a limit of 100 concurrent connections] ************************************************************************************
+2023-06-07 17:34:10,779 p=9150 u=shama n=ansible | An exception occurred during task execution. To see the full traceback, use -vvv. The error was: 	Is the server running on that host and accepting TCP/IP connections?
+2023-06-07 17:34:10,779 p=9150 u=shama n=ansible | fatal: [ismoil_server]: FAILED! => {"changed": false, "msg": "unable to connect to database: connection to server at \"192.168.49.2\", port 30432 failed: No route to host\n\tIs the server running on that host and accepting TCP/IP connections?\n"}
+2023-06-07 17:34:10,780 p=9150 u=shama n=ansible | PLAY RECAP *****************************************************************************************************************************************************************************************
+2023-06-07 17:34:10,780 p=9150 u=shama n=ansible | ismoil_server              : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2023-06-07 17:39:21,440 p=14409 u=shama n=ansible | PLAY [ansible playbook] ****************************************************************************************************************************************************************************
+2023-06-07 17:39:21,468 p=14409 u=shama n=ansible | TASK [Gathering Facts] *****************************************************************************************************************************************************************************
+2023-06-07 17:39:22,376 p=14409 u=shama n=ansible | ok: [ismoil_server]
+2023-06-07 17:39:22,418 p=14409 u=shama n=ansible | TASK [create_database : Create a new database with name "acme" which has a limit of 100 concurrent connections] ************************************************************************************
+2023-06-07 17:39:22,799 p=14409 u=shama n=ansible | changed: [ismoil_server]
+2023-06-07 17:39:22,849 p=14409 u=shama n=ansible | PLAY RECAP *****************************************************************************************************************************************************************************************
+2023-06-07 17:39:22,850 p=14409 u=shama n=ansible | ismoil_server              : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-06-07 17:55:59,230 p=36037 u=shama n=ansible | - Role roles/create_mongo_database was created successfully
+2023-06-07 17:59:18,008 p=40211 u=shama n=ansible | PLAY [ansible playbook] ****************************************************************************************************************************************************************************
+2023-06-07 17:59:18,035 p=40211 u=shama n=ansible | TASK [Gathering Facts] *****************************************************************************************************************************************************************************
+2023-06-07 17:59:18,952 p=40211 u=shama n=ansible |  [ERROR]: User interrupted execution
+
+2023-06-07 17:59:23,498 p=40429 u=shama n=ansible | PLAY [ansible playbook] ****************************************************************************************************************************************************************************
+2023-06-07 17:59:23,526 p=40429 u=shama n=ansible | TASK [Gathering Facts] *****************************************************************************************************************************************************************************
+2023-06-07 17:59:23,550 p=40429 u=shama n=ansible | fatal: [ismoil_server]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host 127.0.0.1 port 22: Connection refused", "unreachable": true}
+2023-06-07 17:59:23,551 p=40429 u=shama n=ansible | PLAY RECAP *****************************************************************************************************************************************************************************************
+2023-06-07 17:59:23,551 p=40429 u=shama n=ansible | ismoil_server              : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2023-06-07 17:59:44,937 p=40886 u=shama n=ansible | PLAY [ansible playbook] ****************************************************************************************************************************************************************************
+2023-06-07 17:59:44,963 p=40886 u=shama n=ansible | TASK [Gathering Facts] *****************************************************************************************************************************************************************************
+2023-06-07 17:59:44,992 p=40886 u=shama n=ansible | fatal: [ismoil_server]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host localhost port 22: Connection refused", "unreachable": true}
+2023-06-07 17:59:44,993 p=40886 u=shama n=ansible | PLAY RECAP *****************************************************************************************************************************************************************************************
+2023-06-07 17:59:44,994 p=40886 u=shama n=ansible | ismoil_server              : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2023-06-07 18:00:36,980 p=41836 u=shama n=ansible | PLAY [ansible playbook] ****************************************************************************************************************************************************************************
+2023-06-07 18:00:37,008 p=41836 u=shama n=ansible | TASK [Gathering Facts] *****************************************************************************************************************************************************************************
+2023-06-07 18:05:11,023 p=41836 u=shama n=ansible |  [ERROR]: User interrupted execution
+
+2023-06-07 18:05:12,411 p=47440 u=shama n=ansible | PLAY [ansible playbook] ****************************************************************************************************************************************************************************
+2023-06-07 18:05:12,438 p=47440 u=shama n=ansible | TASK [Gathering Facts] *****************************************************************************************************************************************************************************
+2023-06-07 18:05:14,736 p=47440 u=shama n=ansible |  [ERROR]: User interrupted execution
+
+2023-06-07 18:06:02,223 p=48679 u=shama n=ansible | ERROR! couldn't resolve module/action 'community.mongodb.mongodb_collection'. This often indicates a misspelling, missing collection, or incorrect module path.
+
+The error appears to be in '/home/shama/Desktop/ansible_ci-cd/roles/create_mongo_database/tasks/main.yml': line 2, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+- name: Create MongoDB database
+  ^ here
+
+2023-06-07 18:06:24,778 p=49149 u=shama n=ansible | ERROR! couldn't resolve module/action 'community.mongodb.mongodb_collection'. This often indicates a misspelling, missing collection, or incorrect module path.
+
+The error appears to be in '/home/shama/Desktop/ansible_ci-cd/roles/create_mongo_database/tasks/main.yml': line 2, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+- name: Create MongoDB database
+  ^ here
+
+2023-06-07 18:07:15,240 p=50290 u=shama n=ansible | ERROR! couldn't resolve module/action 'community.mongodb.mongodb_collection'. This often indicates a misspelling, missing collection, or incorrect module path.
+
+The error appears to be in '/home/shama/Desktop/ansible_ci-cd/roles/create_mongo_database/tasks/main.yml': line 2, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+- name: Create MongoDB database
+  ^ here
+
+2023-06-07 18:07:39,137 p=50769 u=shama n=ansible | ERROR! couldn't resolve module/action 'community.mongodb.mongodb_collection'. This often indicates a misspelling, missing collection, or incorrect module path.
+
+The error appears to be in '/home/shama/Desktop/ansible_ci-cd/roles/create_mongo_database/tasks/main.yml': line 2, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+- name: Create MongoDB database
+  ^ here
+
+2023-06-07 18:08:00,493 p=51249 u=shama n=ansible | ERROR! couldn't resolve module/action 'mongodb_collection'. This often indicates a misspelling, missing collection, or incorrect module path.
+
+The error appears to be in '/home/shama/Desktop/ansible_ci-cd/roles/create_mongo_database/tasks/main.yml': line 2, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+- name: Create MongoDB database
+  ^ here
+
+2023-06-07 18:08:15,120 p=51530 u=shama n=ansible | ERROR! no module/action detected in task.
+
+The error appears to be in '/home/shama/Desktop/ansible_ci-cd/roles/create_mongo_database/tasks/main.yml': line 2, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+- name: Create MongoDB database
+  ^ here
+
+2023-06-07 18:09:22,260 p=52898 u=shama n=ansible | ERROR! couldn't resolve module/action 'community.mongodb.mongodb_collection'. This often indicates a misspelling, missing collection, or incorrect module path.
+
+The error appears to be in '/home/shama/Desktop/ansible_ci-cd/roles/create_mongo_database/tasks/main.yml': line 2, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+- name: Create a new database
+  ^ here
+
+2023-06-07 18:10:11,700 p=53991 u=shama n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  found unacceptable key (unhashable type: 'AnsibleMapping')
+
+The error appears to be in '/home/shama/Desktop/ansible_ci-cd/roles/create_mongo_database/tasks/main.yml': line 4, column 12, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  community.postgresql.postgresql_db:
+    name: {{ db.name }}
+           ^ here
+We could be wrong, but this one looks like it might be an issue with
+missing quotes. Always quote template expression brackets when they
+start a value. For instance:
+
+    with_items:
+      - {{ foo }}
+
+Should be written as:
+
+    with_items:
+      - "{{ foo }}"
+
+2023-06-07 18:10:33,641 p=54453 u=shama n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  found unacceptable key (unhashable type: 'AnsibleMapping')
+
+The error appears to be in '/home/shama/Desktop/ansible_ci-cd/roles/create_mongo_database/tasks/main.yml': line 4, column 12, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  community.postgresql.postgresql_db:
+    name: {{ db.name }}
+           ^ here
+We could be wrong, but this one looks like it might be an issue with
+missing quotes. Always quote template expression brackets when they
+start a value. For instance:
+
+    with_items:
+      - {{ foo }}
+
+Should be written as:
+
+    with_items:
+      - "{{ foo }}"
+
+2023-06-07 18:10:35,116 p=54486 u=shama n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  found unacceptable key (unhashable type: 'AnsibleMapping')
+
+The error appears to be in '/home/shama/Desktop/ansible_ci-cd/roles/create_mongo_database/tasks/main.yml': line 4, column 12, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  community.postgresql.postgresql_db:
+    name: {{ db.name }}
+           ^ here
+We could be wrong, but this one looks like it might be an issue with
+missing quotes. Always quote template expression brackets when they
+start a value. For instance:
+
+    with_items:
+      - {{ foo }}
+
+Should be written as:
+
+    with_items:
+      - "{{ foo }}"
+
+2023-06-07 18:10:44,373 p=54726 u=shama n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  found unacceptable key (unhashable type: 'AnsibleMapping')
+
+The error appears to be in '/home/shama/Desktop/ansible_ci-cd/roles/create_mongo_database/tasks/main.yml': line 5, column 19, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+    name: "{{ db.name }}"
+    login_host:  {{ db.host }}
+                  ^ here
+We could be wrong, but this one looks like it might be an issue with
+missing quotes. Always quote template expression brackets when they
+start a value. For instance:
+
+    with_items:
+      - {{ foo }}
+
+Should be written as:
+
+    with_items:
+      - "{{ foo }}"
+
