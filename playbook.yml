@@ -13,4 +13,3 @@
     # - role: restart_yaml_file                # run this to restart kubernetes yaml file in server
     # - role: restart_nginx                    # run this to restart nginx in server
     # - role: create_database                  # run this to create a new database in server
-    - role: create_mongo_database
