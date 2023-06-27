@@ -1,5 +1,4 @@
 ---
----
 - name: inclide install tasks
   include_tasks: install_tools.yml
   with_items: "{{ tools }}"
