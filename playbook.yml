@@ -7,9 +7,13 @@
 
   roles:
     # - role: install tools                    # run this to install tools which are located in roles/install_tools/defaults/main.yml file in server
-    # - role: set_up_kubernetes_yaml_file      # run this to create kubernetes yaml file in server
+    - role: set_up_kubernetes_yaml_file      # run this to create kubernetes yaml file in server
     # - role: create_nginx_file                # run this to create nginx config file in server
     # - role: create_symbolic_link             # run this to create symbolic link between 2 nginx files
     # - role: restart_yaml_file                # run this to restart kubernetes yaml file in server
     # - role: restart_nginx                    # run this to restart nginx in server
     # - role: create_database                  # run this to create a new database in server
+
+
+
+          # ansible-playbook -i inventory playbook.yml    use this command to run playboook file
