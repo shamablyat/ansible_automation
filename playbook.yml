@@ -15,7 +15,9 @@
     # - role: create_database                  # run this to create a new database in server
     # - role: docker                           # run this to install docker
     # - role: helm_install                     # run this to install helm
-    - role: minikube_install
+    # - role: minikube_install                 # run this to install minikube_install
+    - role: k3s_install                 # run this to install minikube
+
 
 
 
