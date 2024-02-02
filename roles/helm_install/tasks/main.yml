@@ -1,0 +1,35 @@
+---
+- name: Ensure necessary packages are installed
+  package:
+    name: "{{ item }}"
+    state: present
+  with_items:
+    - curl
+
+- name: Download Helm
+  get_url:
+    url: "{{ helm_download_url }}"
+    dest: "/tmp/helm.tar.gz"
+
+- name: Extract Helm
+  ansible.builtin.unarchive:
+    src: "/tmp/helm.tar.gz"
+    dest: "{{ helm_install_dir }}"
+    remote_src: yes
+    creates: "{{ helm_install_dir }}/helm"
+    mode: '0755'
+
+- name: Symlink Helm binary
+  file:
+    src: "{{ helm_install_dir }}/linux-amd64/helm"
+    dest: "{{ helm_install_dir }}/helm"
+    state: link
+
+# - name: Add Helm binary path to PATH
+#   lineinfile:
+#     path: ~/.bashrc
+#     line: 'export PATH="{{ helm_install_dir }}:$PATH"'
+#     create: yes
+#   become: yes
+#   become_user: "{{ ansible_ssh_user }}"
+#   when: ansible_shell_type == "bash"

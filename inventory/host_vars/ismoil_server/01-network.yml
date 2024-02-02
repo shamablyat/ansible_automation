@@ -1,7 +1,7 @@
-ansible_host: 3.70.135.13
+ansible_host: 40.82.153.95
 ansible_port: 22 
-ansible_user: ubuntu 
-# ansible_ssh_pass: Martian123!
-# ansible_become_password: Martian123!
-ansible_connection: ssh
-ansible_ssh_private_key_file: /Users/shama/Downloads/shama.pem
+ansible_user: shamaroot 
+ansible_ssh_pass: qwertySh123!@#
+ansible_become_password: qwertySh123!@#
+# ansible_connection: ssh
+# ansible_ssh_private_key_file: /Users/shama/Downloads/shama.pem
