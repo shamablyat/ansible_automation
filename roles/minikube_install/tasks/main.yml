@@ -1,0 +1,13 @@
+---
+- name: Install Minikube dependencies
+  become: yes
+  package:
+    name: "{{ item }}"
+    state: present
+  with_items:
+    - curl
+    - apt-transport-https
+
+- name: Download and install Minikube
+  become: yes
+  shell: curl -Lo minikube https://storage.googleapis.com/minikube/releases/{{ minikube_version }}/minikube-linux-amd64 && chmod +x minikube && sudo mv minikube /usr/local/bin/

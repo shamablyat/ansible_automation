@@ -14,7 +14,8 @@
     # - role: restart_nginx                    # run this to restart nginx in server
     # - role: create_database                  # run this to create a new database in server
     # - role: docker                           # run this to install docker
-    - role: helm_install                           # run this to install helm
+    # - role: helm_install                     # run this to install helm
+    - role: minikube_install
 
 
 
