@@ -1,6 +1,6 @@
-ansible_host: 40.82.153.95
+ansible_host: 47.76.134.41
 ansible_port: 22 
-ansible_user: shamaroot 
+ansible_user: root 
 ansible_ssh_pass: qwertySh123!@#
 ansible_become_password: qwertySh123!@#
 # ansible_connection: ssh

@@ -17,6 +17,7 @@
     # - role: helm_install                     # run this to install helm
     # - role: minikube_install                 # run this to install minikube_install
     # - role: k3s_install                      # run this to install k3s
+    - role: jenkins
 
 
 
