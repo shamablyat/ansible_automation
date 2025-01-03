@@ -1,0 +1,14 @@
+- name: Download Microsoft package signing key
+  get_url:
+    url: https://packages.microsoft.com/config/ubuntu/24.04/packages-microsoft-prod.deb
+    dest: /tmp/packages-microsoft-prod.deb
+
+- name: Install Microsoft package signing key
+  apt:
+    deb: /tmp/packages-microsoft-prod.deb
+    state: present
+
+- name: Install .NET 8
+  apt:
+    name: dotnet-sdk-8.0
+    state: present

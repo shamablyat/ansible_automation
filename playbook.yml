@@ -18,8 +18,12 @@
     # - role: minikube_install                 # run this to install minikube_install
     # - role: k3s_install                      # run this to install k3s
     # - role: jenkins
-    - role: postgres  
-
+    # - role: postgres  
+    - role: kafka
+    - role: dotnet
+    - role: rabbitmq
+    - role: nginx
+    - role: redis
 
 
           # ansible-playbook -i inventory playbook.yml    use this command to run playboook file
