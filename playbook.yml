@@ -26,4 +26,4 @@
     - role: redis
 
 
-          # ansible-playbook -i inventory playbook.yml    use this command to run playboook file
+          # ansible-playbook -i inventory/inventory.yml playbook.yml --ask-pass --ask-become-pass    use this command to run playboook file
