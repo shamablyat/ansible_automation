@@ -6,18 +6,14 @@ all:
 
 
 
-  #   kube_master:
+  #   kube_node:
   #     hosts:
   #       83.69.136.216:
   #         ansible_user: ubuntu8
   #         ansible_ssh_pass: 488679102+
   #         ansible_ssh_port: 9923
-  #   kube_worker:
-  #     hosts:
-  #       83.69.136.216:
-  #         ansible_user: ubuntu8
-  #         ansible_ssh_pass: 488679102+
-  #         ansible_ssh_port: 9923
+  #          hostname:
+
 
 
 
@@ -27,12 +23,14 @@ all:
           ansible_user: ubuntu8
           ansible_ssh_pass: 488679102+
           ansible_ssh_port: 9923
+          hostname:
     zabbix_agents:
       hosts:
         83.69.136.216:
           ansible_user: ubuntu8
           ansible_ssh_pass: 488679102+
           ansible_ssh_port: 9923
+          hostname: 
 
 
 
