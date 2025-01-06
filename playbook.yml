@@ -1,6 +1,6 @@
 ---
 - name: ansible playbook
-  hosts: postgres_servers
+  hosts: all                  # by looking to inventory u can change or edit this to run on different hosts 
   become: true
   become_method: sudo
   become_user: root
@@ -19,11 +19,16 @@
     # - role: k3s_install                      # run this to install k3s
     # - role: jenkins
     # - role: postgres  
-    - role: kafka
-    - role: dotnet
-    - role: rabbitmq
-    - role: nginx
-    - role: redis
+    # - role: kafka
+    # - role: dotnet
+    # - role: rabbitmq
+    # - role: nginx
+    # - role: redis
+    - role: common_for_kuber
+
+
+
+
 
 
           # ansible-playbook -i inventory/inventory.yml playbook.yml --ask-pass --ask-become-pass    use this command to run playboook file
