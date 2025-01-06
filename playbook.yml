@@ -5,7 +5,7 @@
   become_method: sudo
   become_user: root
 
-  roles:
+  # roles:
     # - role: install tools                    # run this to install tools which are located in roles/install_tools/defaults/main.yml file in server
     # - role: set_up_kubernetes_yaml_file      # run this to create kubernetes yaml file in server
     # - role: create_nginx_file                # run this to create nginx config file in server
@@ -24,10 +24,25 @@
     # - role: rabbitmq
     # - role: nginx
     # - role: redis
-    - role: common_for_kuber
+    # - role: common_for_kuber
 
 
 
+- name: Set up Zabbix Server
+  hosts: zabbix_server
+  become: true
+  become_method: sudo
+  become_user: root
+  roles:
+    - zabbix_server
+
+- name: Set up Zabbix Agents
+  hosts: zabbix_agents
+  become: true
+  become_method: sudo
+  become_user: root
+  roles:
+    - zabbix_agent
 
 
 

@@ -2,18 +2,42 @@
 
 all:
   children:
-    kube_master:
+
+
+
+
+  #   kube_master:
+  #     hosts:
+  #       83.69.136.216:
+  #         ansible_user: ubuntu8
+  #         ansible_ssh_pass: 488679102+
+  #         ansible_ssh_port: 9923
+  #   kube_worker:
+  #     hosts:
+  #       83.69.136.216:
+  #         ansible_user: ubuntu8
+  #         ansible_ssh_pass: 488679102+
+  #         ansible_ssh_port: 9923
+
+
+
+    zabbix_server:
       hosts:
         83.69.136.216:
           ansible_user: ubuntu8
           ansible_ssh_pass: 488679102+
           ansible_ssh_port: 9923
-    kube_worker:
+    zabbix_agents:
       hosts:
         83.69.136.216:
           ansible_user: ubuntu8
           ansible_ssh_pass: 488679102+
           ansible_ssh_port: 9923
+
+
+
+
+
     # kafka_servers:
     #   hosts:
     #     192.168.1.102:
