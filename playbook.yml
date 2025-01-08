@@ -23,7 +23,7 @@
     # - role: dotnet
     # - role: rabbitmq
     # - role: nginx
-    # - role: redis
+    # - role: redisre
     # - role: common_for_kuber
     - role: zabbix_agent
 
