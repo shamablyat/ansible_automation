@@ -1,5 +1,3 @@
-# inventory/inventory.yml
-
 all:
   children:
 
@@ -19,17 +17,17 @@ all:
 
     zabbix_server:
       hosts:
-        83.69.136.216:
-          ansible_user: ubuntu8
-          ansible_ssh_pass: 488679102+
-          ansible_ssh_port: 9923
+        172.18.9.51:
+          ansible_user: root
+          ansible_ssh_pass: E!VfeQJ6a$vGRux6
+          ansible_ssh_port: 22
           hostname:
     zabbix_agents:
       hosts:
         83.69.136.216:
           ansible_user: ubuntu8
           ansible_ssh_pass: 488679102+
-          ansible_ssh_port: 9923
+          ansible_ssh_port: 9923 
           hostname: 
 
 

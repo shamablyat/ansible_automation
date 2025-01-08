@@ -25,24 +25,8 @@
     # - role: nginx
     # - role: redis
     # - role: common_for_kuber
+    - role: zabbix_agent
 
-
-
-- name: Set up Zabbix Server
-  hosts: zabbix_server
-  become: true
-  become_method: sudo
-  become_user: root
-  roles:
-    - zabbix_server
-
-- name: Set up Zabbix Agents
-  hosts: zabbix_agents
-  become: true
-  become_method: sudo
-  become_user: root
-  roles:
-    - zabbix_agent
 
 
 
