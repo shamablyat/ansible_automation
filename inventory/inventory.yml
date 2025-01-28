@@ -4,46 +4,49 @@ all:
 
 
 
-  #   kube_node:
-  #     hosts:
-  #       83.69.136.216:
-  #         ansible_user: ubuntu8
-  #         ansible_ssh_pass: 488679102+
-  #         ansible_ssh_port: 9923
-  #          hostname:
+    kube_node:
+      hosts:
+        0.0.0.0:
+          ansible_user: ubuntu8
+          ansible_ssh_pass: password
+          ansible_ssh_port: 22 
+          hostname: 
 
 
 
 
     zabbix_server:
       hosts:
-        172.18.9.51:
+        0.0.0.0:
           ansible_user: root
-          ansible_ssh_pass: E!VfeQJ6a$vGRux6
+          ansible_ssh_pass: password
           ansible_ssh_port: 22
           hostname:
+        
     zabbix_agents:
       hosts:
-        83.69.136.216:
+        0.0.0.0:
           ansible_user: ubuntu8
-          ansible_ssh_pass: 488679102+
-          ansible_ssh_port: 9923 
+          ansible_ssh_pass: password
+          ansible_ssh_port: 22 
           hostname: 
 
 
 
 
 
-    # kafka_servers:
-    #   hosts:
-    #     192.168.1.102:
-    #       ansible_user: ubuntu
-    #       ansible_ssh_pass: your_password_here
-    #       ansible_ssh_port: 22
-    # rabbitmq_servers:
-    #   hosts:
-    #     192.168.1.103:
-    #       ansible_user: ubuntu
-    #       ansible_ssh_pass: your_password_here
-    #       ansible_ssh_port: 22
+    kafka_servers:
+      hosts:
+        0.0.0.0:
+          ansible_user: ubuntu8
+          ansible_ssh_pass: password
+          ansible_ssh_port: 22 
+          hostname: 
+    rabbitmq_servers:
+      hosts:
+        0.0.0.0:
+          ansible_user: ubuntu8
+          ansible_ssh_pass: password
+          ansible_ssh_port: 22 
+          hostname:
 

@@ -1,0 +1,18 @@
+server {
+    server_name 0.0.0.0;
+   
+    listen 8080 ;
+    ignore_invalid_headers off;
+    #access_log /var/log/nginx/8088-access.log;
+    error_log /var/log/nginx/8088-error.log;
+   
+    location / {
+       proxy_set_header Host ___________domain___________;
+       proxy_set_header  X-Real-IP $remote_addr;
+           # The IP address of the client (which might be a proxy itself)
+       proxy_set_header  X-Forwarded-For $proxy_add_x_forwarded_for;
+           # The IP address in the HTTP X-Forwarded-For header (which would be the 'origin' client).
+       proxy_pass http://10.190.44.49:80;
+      
+    }
+}

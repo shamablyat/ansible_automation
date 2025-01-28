@@ -1,6 +1,6 @@
 ---
 - name: ansible playbook
-  hosts: all                  # by looking to inventory u can change or edit this to run on different hosts 
+  hosts:                   # by looking to inventory u can change or edit this to run on different hosts 
   become: true
   become_method: sudo
   become_user: root
@@ -23,11 +23,12 @@
     # - role: dotnet
     # - role: rabbitmq
     # - role: nginx
-    # - role: redisre
-    # - role: common_for_kuber
-    - role: zabbix_agent
+    # - role: redis
+    # - role: zabbix_agent
+
 
 
 
 
           # ansible-playbook -i inventory/inventory.yml playbook.yml --ask-pass --ask-become-pass    use this command to run playboook file
+
